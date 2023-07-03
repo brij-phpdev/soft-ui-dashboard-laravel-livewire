@@ -13,6 +13,9 @@ use App\Http\Livewire\Tables;
 use App\Http\Livewire\StaticSignIn;
 use App\Http\Livewire\StaticSignUp;
 use App\Http\Livewire\Rtl;
+use App\Http\Livewire\Tenant;
+use App\Http\Livewire\Property;
+use App\Http\Controllers\HomeController;
 
 use App\Http\Livewire\LaravelExamples\UserProfile;
 use App\Http\Livewire\LaravelExamples\UserManagement;
@@ -30,9 +33,9 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/', function() {
-    return redirect('/login');
-});
+//Route::livewire('/register','sign-up');
+Route::get('/', [HomeController::class,'index'])->name('home');
+Route::get('/contact', [HomeController::class,'contact'])->name('contact');
 
 Route::get('/sign-up', SignUp::class)->name('sign-up');
 Route::get('/login', Login::class)->name('login');
@@ -48,8 +51,11 @@ Route::middleware('auth')->group(function () {
     Route::get('/tables', Tables::class)->name('tables');
     Route::get('/static-sign-in', StaticSignIn::class)->name('sign-in');
     Route::get('/static-sign-up', StaticSignUp::class)->name('static-sign-up');
-    Route::get('/rtl', Rtl::class)->name('rtl');
+//    Route::get('/rtl', Rtl::class)->name('rtl');
     Route::get('/laravel-user-profile', UserProfile::class)->name('user-profile');
     Route::get('/laravel-user-management', UserManagement::class)->name('user-management');
+    Route::get('/tenants', Tenant::class)->name('tenants');
+    Route::get('/property', Property::class)->name('property');
+    
 });
 
