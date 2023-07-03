@@ -1,15 +1,15 @@
  <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg">
     <div class="container-fluid py-4">
       <div class="row">
-        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+        <div class="col-xl-4 col-sm-6 mb-xl-0 mb-4">
           <div class="card">
             <div class="card-body p-3">
               <div class="row">
                 <div class="col-8">
                   <div class="numbers">
-                    <p class="text-sm mb-0 text-capitalize font-weight-bold">Today's Money</p>
+                    <p class="text-sm mb-0 text-capitalize font-weight-bold">Today's Reviews</p>
                     <h5 class="font-weight-bolder mb-0">
-                      $53,000
+                      500
                       <span class="text-success text-sm font-weight-bolder">+55%</span>
                     </h5>
                   </div>
@@ -23,7 +23,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+        <div class="col-xl-4 col-sm-6 mb-xl-0 mb-4">
           <div class="card">
             <div class="card-body p-3">
               <div class="row">
@@ -45,16 +45,16 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+        <div class="col-xl-4 col-sm-6 mb-xl-0 mb-4">
           <div class="card">
             <div class="card-body p-3">
               <div class="row">
                 <div class="col-8">
                   <div class="numbers">
-                    <p class="text-sm mb-0 text-capitalize font-weight-bold">New Clients</p>
+                    <p class="text-sm mb-0 text-capitalize font-weight-bold">New Landlords</p>
                     <h5 class="font-weight-bolder mb-0">
-                      +3,462
-                      <span class="text-danger text-sm font-weight-bolder">-2%</span>
+                      +32
+                      <span class="text-danger text-sm font-weight-bolder">2%</span>
                     </h5>
                   </div>
                 </div>
@@ -67,7 +67,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-sm-6">
+<!--        <div class="col-xl-3 col-sm-6">
           <div class="card">
             <div class="card-body p-3">
               <div class="row">
@@ -88,9 +88,9 @@
               </div>
             </div>
           </div>
-        </div>
+        </div>-->
       </div>
-      <div class="row mt-4">
+      <div class="row mt-4 d-none">
         <div class="col-lg-7 mb-lg-0 mb-4">
           <div class="card">
             <div class="card-body p-3">
@@ -134,7 +134,7 @@
           </div>
         </div>
       </div>
-      <div class="row mt-4">
+      <div class="row mt-4 d-none">
         <div class="col-lg-5 mb-lg-0 mb-4">
           <div class="card">
             <div class="card-body p-3">
@@ -254,10 +254,10 @@
         <div class="col-lg-7">
           <div class="card">
             <div class="card-header pb-0">
-              <h6>Sales overview</h6>
+              <h6>Reviews overview</h6>
               <p class="text-sm">
                 <i class="fa fa-arrow-up text-success"></i>
-                <span class="font-weight-bold">4% more</span> in 2021
+                <span class="font-weight-bold">4% more</span> in 2023
               </p>
             </div>
             <div class="card-body p-3">
@@ -268,7 +268,7 @@
           </div>
         </div>
       </div>
-      <div class="row my-4">
+      <div class="row my-4 d-none">
         <div class="col-lg-8 col-md-6 mb-md-0 mb-4">
           <div class="card">
             <div class="card-header pb-0">

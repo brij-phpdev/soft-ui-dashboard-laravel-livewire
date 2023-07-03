@@ -1202,8 +1202,8 @@
                       onclick="navbarFixed(this)">
               </div>
               <hr class="horizontal dark my-sm-4">
-              <a class="btn bg-gradient-dark w-100" href="https://www.creative-tim.com/product/soft-ui-dashboard-laravel-livewire">Free
-                  download</a>
+              <a class="btn bg-gradient-dark w-100" href="">Free
+                  Home</a>
               <a class="btn btn-outline-dark w-100"
                   href="/documentation/bootstrap/overview/soft-ui-dashboard/index.html">View
                   documentation</a>
@@ -1216,7 +1216,7 @@
                       class="btn btn-dark mb-0 me-2" target="_blank">
                       <i class="fab fa-twitter me-1" aria-hidden="true"></i> Tweet
                   </a>
-                  <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/soft-ui-dashboard-laravel-livewire"
+                  <a href="https://www.facebook.com/sharer/sharer.php?u="
                       class="btn btn-dark mb-0 me-2" target="_blank">
                       <i class="fab fa-facebook-square me-1" aria-hidden="true"></i> Share
                   </a>

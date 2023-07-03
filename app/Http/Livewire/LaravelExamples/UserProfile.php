@@ -25,13 +25,10 @@ class UserProfile extends Component
     }
 
     public function save() {
-        if(env('IS_DEMO')) {
-           $this->showDemoNotification = true;
-        } else {
-            $this->validate();
-            $this->user->save();
-            $this->showSuccesNotification = true;
-        }
+    
+        $this->validate();
+        $this->user->save();
+        $this->showSuccesNotification = true;
     }
     public function render()
     {

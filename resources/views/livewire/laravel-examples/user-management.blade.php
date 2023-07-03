@@ -1,11 +1,11 @@
 <div class="main-content">
     <div class="alert alert-secondary mx-4" role="alert">
-        <span class="text-white"><strong>Add, Edit, Delete features are not functional!</strong> This is a
+<!--        <span class="text-white"><strong>Add, Edit, Delete features are not functional!</strong> This is a
             <strong>PRO</strong> feature!
             Click <strong><a href="https://www.creative-tim.com/live/soft-ui-dashboard-pro-laravel" target="_blank"
                     class="text-white">here</a></strong>
             to see the PRO
-            product!</span>
+            product!</span>-->
     </div>
 
     <div class="row">
@@ -61,7 +61,7 @@
                                         <p class="text-xs font-weight-bold mb-0">Admin</p>
                                     </td>
                                     <td class="text-center">
-                                        <p class="text-xs font-weight-bold mb-0">admin@softui.com</p>
+                                        <p class="text-xs font-weight-bold mb-0">admin@dodgy.com</p>
                                     </td>
                                     <td class="text-center">
                                         <p class="text-xs font-weight-bold mb-0">Admin</p>
@@ -92,7 +92,7 @@
                                         <p class="text-xs font-weight-bold mb-0">Creator</p>
                                     </td>
                                     <td class="text-center">
-                                        <p class="text-xs font-weight-bold mb-0">creator@softui.com</p>
+                                        <p class="text-xs font-weight-bold mb-0">creator@dodgy.one</p>
                                     </td>
                                     <td class="text-center">
                                         <p class="text-xs font-weight-bold mb-0">Creator</p>
@@ -123,7 +123,7 @@
                                         <p class="text-xs font-weight-bold mb-0">Member</p>
                                     </td>
                                     <td class="text-center">
-                                        <p class="text-xs font-weight-bold mb-0">member@softui.com</p>
+                                        <p class="text-xs font-weight-bold mb-0">member@dodgy.one</p>
                                     </td>
                                     <td class="text-center">
                                         <p class="text-xs font-weight-bold mb-0">Member</p>
@@ -154,7 +154,7 @@
                                         <p class="text-xs font-weight-bold mb-0">Peterson</p>
                                     </td>
                                     <td class="text-center">
-                                        <p class="text-xs font-weight-bold mb-0">peterson@softui.com</p>
+                                        <p class="text-xs font-weight-bold mb-0">peterson@dodgy.one</p>
                                     </td>
                                     <td class="text-center">
                                         <p class="text-xs font-weight-bold mb-0">Member</p>
@@ -185,7 +185,7 @@
                                         <p class="text-xs font-weight-bold mb-0">Marie</p>
                                     </td>
                                     <td class="text-center">
-                                        <p class="text-xs font-weight-bold mb-0">marie@softui.com</p>
+                                        <p class="text-xs font-weight-bold mb-0">marie@dodgy.one</p>
                                     </td>
                                     <td class="text-center">
                                         <p class="text-xs font-weight-bold mb-0">Creator</p>

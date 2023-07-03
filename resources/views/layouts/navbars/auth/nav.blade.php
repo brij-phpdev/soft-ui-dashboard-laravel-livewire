@@ -14,15 +14,14 @@
             </nav>
             <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4 d-flex justify-content-end" id="navbar">
                 <div class="nav-item d-flex align-self-end">
-                    <a href="https://www.creative-tim.com/product/soft-ui-dashboard-laravel-livewire" target="_blank"
+                    <a href="{{ route('home') }}"
                         class="btn btn-primary active mb-0 text-white" role="button" aria-pressed="true">
-                        Download
+                        Home
                     </a>
                 </div>
                 <div class="ms-md-3 pe-md-3 d-flex align-items-center">
-                    <div class="input-group">
-                        <span class="input-group-text text-body"><i class="fas fa-search" aria-hidden="true"></i></span>
-                        <input type="text" class="form-control" placeholder="Type here...">
+                    <div class="input-group text-info">
+                        Hi {{auth()->user()->name}}! &nbsp;
                     </div>
                 </div>
                 <ul class="navbar-nav justify-content-end">
